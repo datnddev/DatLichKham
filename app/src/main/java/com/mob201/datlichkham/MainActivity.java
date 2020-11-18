@@ -3,6 +3,7 @@ package com.mob201.datlichkham;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         //abcdefef
         //hdsadsas
         //ádfdsnf
+        Toast.makeText(this, "ok", Toast.LENGTH_SHORT).show();
     }
 }
