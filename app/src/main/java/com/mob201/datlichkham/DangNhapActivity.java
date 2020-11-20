@@ -14,7 +14,7 @@ public class DangNhapActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dang_nhap);
-        btnRegister = (Button) findViewById(R.id.btnDangKy);
+        btnRegister = (Button) findViewById(R.id.btnRegister);
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
